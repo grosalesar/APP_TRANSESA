@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/irmapa"
+        android:title="Inicio"
+        app:showAsAction="always"
+        android:icon="@drawable/ubicacion"
+        android:orderInCategory="0"
+        />
+
+    <item
+        android:id="@+id/ir"
+        android:title="Inicio"
+        app:showAsAction="always"
+        android:icon="@drawable/documento"
+        android:orderInCategory="0"
+        />
+
+    <item
+        android:id="@+id/camion"
+        android:title="Inicio"
+        app:showAsAction="always"
+        android:icon="@drawable/vehiculo"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/conductor"
+        android:title="Inicio"
+        app:showAsAction="always"
+        android:icon="@drawable/conductor"
+        android:orderInCategory="2"
+        />
+
+</menu>

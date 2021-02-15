@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TRANSESA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab1"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Estaciones">
+
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/pelicula_fila" />
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <activity android:name=".Imagen"></activity>
+        <activity android:name=".Agenda"></activity>
+        <activity android:name=".ConsultarDocumento" />
+        <activity android:name=".RegistrarDocumentos" />
+        <activity android:name=".MenuSecundario" />
+        <activity android:name=".MainActivityRegistrarVehiculo" />
+        <activity android:name=".MainActivityRegistrarCond" />
+        <activity android:name=".PeliculasActivity" />
+        <activity android:name=".MainActivityActTiempos" />
+        <activity android:name=".MainActivityActAbast" />
+        <activity android:name=".MainActivityConsultaAbastecimiento" />
+        <activity android:name=".SMainActivity" />
+        <activity android:name=".MainActivityConsultaTiempos" />
+        <activity android:name=".MainActivityConsultaAbast" />
+        <activity android:name=".MainActivityTiempos" />
+        <activity android:name=".MainActivityAbastecimiento" />
+        <activity android:name=".MainActivityVehiculo" />
+        <activity android:name=".MainActivityPrincipal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivityConductor" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCugMv_sP8E3g_EtqGNLb4Q6sblRSINkxE" />
+
+
+    </application>
+
+</manifest>

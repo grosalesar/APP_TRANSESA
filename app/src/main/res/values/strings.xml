@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Seleccione placa</item>
+        <item>AZA724</item>
+        <item>AZA543</item>
+        <item>AYZ932</item>
+        <item>AWS453</item>
+        <item>TRE543</item>
+        <item>F0F876</item>
+    </string-array>
+
+    <string-array name="Languages2">
+        <item>Seleccione conductor</item>
+        <item>Ricardo Suarez Perez</item>
+        <item>Martin Atocza Surco</item>
+        <item>Anibal Dos Principe</item>
+        <item>Adolfo San Miguel Cardozo</item>
+        <item>Baldimiro Perez Orgatii</item>
+        <item>Fernando Mendizabal Ortega</item>
+    </string-array>
+
+    <string-array name="Languages3">
+        <item>SELECCIONE CDA</item>
+        <item>CENTRO DE DISTRIBUCIÓN ATE  </item>
+        <item>CENTRO DE DISTRIBUCIÓN MOQUEGUA </item>
+        <item>CENTRO DE DISTRIBUCIÓN CERRO AZUL</item>
+        <item>CENTRO DE DISTRIBUCIÓN VEGUETA </item>
+        <item>CENTRO DE DISTRIBUCIÓN CUSCO</item>
+        <item>CENTRO DE DISTRIBUCIÓN AREQUIPA</item>
+        <item>CENTRO DE DISTRIBUCIÓN TACNA</item>
+
+    </string-array>
+
+    <string-array name="Languages4">
+        <item>Seleccione Marca</item>
+        <item>Freightliner </item>
+        <item>Volkswagen</item>
+        <item>Mercedes-benz</item>
+        <item>Volvo</item>
+        <item>Isuzu</item>
+        <item>International</item>
+    </string-array>
+
+    <string-array name="Languages5">
+        <item>Seleccione Modelo</item>
+        <item>cl 120</item>
+        <item>9200i sba 6x4</item>
+        <item>Argos</item>
+        <item>VNL64T 780</item>
+        <item>NPR 75</item>
+        <item>i9000</item>
+    </string-array>
+
+    <string-array name="Languages6">
+        <item>Seleccione Clase y Categoría</item>
+        <item>AIIIA</item>
+        <item>AIIIB</item>
+        <item>AIIIC</item>
+        <item>A4 Profesional </item>
+
+    </string-array>
+
+
+</resources>
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item
+        android:id="@+id/menu_6"
+        android:title=""
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+
+<item
+    android:id="@+id/menu_5"
+    android:title=""
+    app:showAsAction="always"
+
+    android:orderInCategory="1"
+    />
+
+    <item
+        android:id="@+id/menu_4"
+        android:title=""
+        app:showAsAction="always"
+
+        android:orderInCategory="2"
+        />
+
+    <item
+    android:id="@+id/menu_1"
+    android:title="Actualizar Abastecimiento"
+    app:showAsAction="never"
+        android:icon="@drawable/menu2"
+        android:orderInCategory="3"
+        />
+
+    <item
+    android:id="@+id/menu_2"
+    android:title="Actualizar Tiempos"
+    app:showAsAction="never"
+        android:orderInCategory="4"
+        />
+
+    <item
+        android:id="@+id/menu_3"
+        android:title="Salir"
+        app:showAsAction="never"
+        android:orderInCategory="5"
+
+        />
+
+
+</menu>

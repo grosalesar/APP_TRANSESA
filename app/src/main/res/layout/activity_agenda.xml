@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Agenda">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="80dp"
+        android:text="Interfaz Telefónica"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#2311A0"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Ingrese número telefónico:"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/editTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnllamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Abrir teléfono"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/button333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Ir a Menú Secundario"
+        android:onClick="btnir"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnllamaroperaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Alertar al Jefe de Operaciones"
+
+        />
+
+
+
+</LinearLayout>

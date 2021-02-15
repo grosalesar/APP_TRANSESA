@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityPrincipal"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="MENU PRINCIPAL"
+        android:textStyle="bold"
+        android:textColor="#FF5733"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/ButtonTest1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dark_header"
+        android:drawableTop="@drawable/consulta2"
+        android:paddingTop="5sp"
+        android:text="Registro de Abastecimiento"
+        android:textColor="#FFFFFF"
+        android:onClick="btn1"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/ButtonTest2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dark_header"
+        android:drawableTop="@drawable/consulta1"
+        android:paddingTop="5sp"
+        android:text="Registro de Tiempos"
+        android:textColor="#FFFFFF"
+        android:onClick="btn2"
+        >
+    </Button>
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/ButtonTest3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dark_header"
+        android:drawableTop="@drawable/registro2"
+        android:paddingTop="5sp"
+        android:text="Consulta de Abastecimiento"
+        android:textColor="#FFFFFF"
+        android:onClick="btn3"
+        >
+    </Button>
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/ButtonTest4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dark_header"
+        android:drawableTop="@drawable/registro3"
+        android:paddingTop="5sp"
+        android:text="Reporte de Tiempos"
+        android:textColor="#FFFFFF"
+        android:onClick="btn4"
+        >
+    </Button>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Desarrollo para Aplicaciones Móviles "
+        android:textStyle="bold"
+        android:textColor="#581845"
+        android:textSize="12dp"
+        android:textAlignment="textEnd"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>

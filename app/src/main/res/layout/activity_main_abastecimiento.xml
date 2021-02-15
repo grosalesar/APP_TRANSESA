@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityAbastecimiento">
+
+        <TextView
+            android:id="@+id/lbltitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="50dp"
+            android:text="Registro de Abastecimiento"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#2311A0"
+            android:layout_margin="15dp"
+            />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/lbl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Placa:"
+        android:textSize="18dp"
+        />
+
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/lbl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Conductor:"
+        android:textSize="18dp"
+        />
+
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/lbl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Fecha de Abastecimiento:"
+        android:textSize="18dp"
+        />
+
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Selecciona el día"
+        android:text=""
+        android:textSize="18dp"
+        android:clickable="false"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/lbl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Cant. de Kilómetros Recorridos:"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/kilometraje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="18dp"
+        android:digits="0123456789."
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/lbl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Cant. de Galones Abastecidos "
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/cantgalones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="18dp"
+        android:digits="0123456789."
+        />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="Registrar"
+        android:onClick="btnabastecimiento"
+
+        />
+
+
+</LinearLayout>
